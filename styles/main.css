@@ -2,20 +2,20 @@ h1 span {
     background-color: blue;
 }
 
-#toolbar {
+#toolbar ul {
     list-style-type: none;
     position: relative;
 }
 
-#toolbar li {
+#toolbar ul li {
     float: left;
 }
 
-#toolbar li a {
+#toolbar ul li a {
     text-align: center;
     text-decoration: none;
     font-weight: bold;
-    width: 160px;
+    width: 170px;
     display: block;
 }
 
