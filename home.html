@@ -16,33 +16,53 @@
     <h1><span>DC's Greatest Hero's and Villain's</span></h1>
 
 </header>
-<nav id="toolbar">
-    <ul>
-        <li><a href="home.html">Home</a></li>
-        <li><a href="pages/heros.html">Hero's</a></li>
-        <li><a href="pages/villains.html">Villain's</a></li>
-        <li><a href="pages/devRec.html">Dev Rec's</a></li>
-        <li class="dropdown">
-            <a href="javascript:void(0)" class="dropbtn">Contact</a>
-            <div class="dropdown-content">
-                <a href="pages/contact.html">Contact Form</a>
-                <a href="pages/review's.html">Review's</a>
-            </div>
-        </li>
-    </ul>
-</nav>
+    <div>
+        <nav id="toolbar">
+            <ul>
+                <li><a class="current" href="home.html">Home</a></li>
+                <li><a href="pages/heros.html">Hero's</a></li>
+                <li><a href="pages/villains.html">Villain's</a></li>
+                <li><a href="pages/devRec.html">Dev Rec's</a></li>
+                <li><a>More Info</a>
+                    <ul>
+                        <li><a href="pages/contact.html">Contact Form</a></li>
+                        <li><a href="pages/review's.html">Review's</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
     <main>
+        <div class="card mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="images/dc_logo.png" class="img-fluid rounded-start" alt="dc">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">DC's History</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-        <h3>DC's Histoy</h3>
-            <img src="images/dc_logo.png" alt="DC Logo" height="130">
-            <p></p>
-
-        <h3>The Multiverse</h3>
-            <img src="images/multi.png" alt="Multi Logo" height="130">
-            <p></p>
-
-
+            <div class="card mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="images/multi.png" class="img-fluid rounded-start" alt="multi">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">The Multiverse</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
     </main>
+
     <footer>
         <p>&copy; 2021, Parker Francis, N.J.I.T, All Rights Reserved, Privacy Policy</p>
     </footer>
