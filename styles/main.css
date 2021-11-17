@@ -19,7 +19,7 @@ h1 span {
 }
 
 #toolbar ul li a {
-    display: block;
+    display: flow;
     width: 160px;
     text-align: center;
     background-color: darkslategray;
@@ -27,7 +27,6 @@ h1 span {
     text-decoration: none;
     color: white;
     font-weight: bold;
-    border-radius: 4px;
 
 }
 
