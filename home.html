@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
     <title>DC's H&V</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="images/favicon.jpg">
     <link rel="stylesheet" type="text/css" href="styles/main.css"/>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -14,8 +15,37 @@
 
 <header>
     <h1><span>DC's Greatest Hero's and Villain's</span></h1>
-
 </header>
+
+<main>
+    <nav class="navbar navbar-expand-sm" id="toolbar">
+        <div class="toggler-navbar-toggler" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="pages/heros.html">Heros</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="pages/villains.html">Villains</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="pages/devRec.html">Dec Rec's</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        More Info
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item" href="pages/contact.html">Contact Form</a></li>
+                        <li><a class="dropdown-item" href="pages/review's.html">Reviews</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </nav>
+  <!--
     <div>
         <nav id="toolbar">
             <ul>
@@ -32,12 +62,26 @@
             </ul>
         </nav>
     </div>
+   -->
 
-    <main>
-        <div class="card mb-3" style="max-width: 540px;">
+        <div id="dcWorlds" class="carousel slide" data-bs-ride="carousel" style="max-width: 540px;">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/mogo.png" class="d-block w-100" alt="Mogo" width="400">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/warworld.png" class="d-block w-100" alt="WarW" width="400">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/aok.png" class="d-block w-100" alt="Apok" width="400">
+                </div>
+            </div>
+        </div>
+
+        <div id="dc" style="max-width: 600px;">
                 <div class="row g-0">
                     <div class="col-md-4">
-                        <img src="images/dc_logo.png" class="img-fluid rounded-start" alt="dc">
+                        <img src="images/dc_logo.png" class="img-fluid rounded-start" alt="dc" width="200">
                     </div>
                     <div class="col-md-8">
                         <div class="card-body">
@@ -48,10 +92,10 @@
                 </div>
             </div>
 
-            <div class="card mb-3" style="max-width: 540px;">
+            <div id="mult" style="max-width: 600px;">
                 <div class="row g-0">
                     <div class="col-md-4">
-                        <img src="images/multi.png" class="img-fluid rounded-start" alt="multi">
+                        <img src="images/multi.png" class="img-fluid rounded-start" alt="multi" width="200">
                     </div>
                     <div class="col-md-8">
                         <div class="card-body">
@@ -61,7 +105,7 @@
                     </div>
                 </div>
             </div>
-    </main>
+</main>
 
     <footer>
         <p>&copy; 2021, Parker Francis, N.J.I.T, All Rights Reserved, Privacy Policy</p>
