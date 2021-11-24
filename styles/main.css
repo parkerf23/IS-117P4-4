@@ -1,13 +1,15 @@
+
 html {
-    background-color: #0000ff;
+    background-color: #0476f2;
 }
 
 header {
-    background-color: #0000ff;
+    background-color: #0476f2;
+    margin-bottom: -.5em;
 }
 
 main {
-    background-color: #0000ff;
+    background-color: #0476f2;
 }
 
 h1 {
@@ -17,11 +19,20 @@ h1 {
 h1 span {
     background-color: #FFFF00;
     border-radius: 4px;
+    border: 3px solid crimson;
 }
 
+#navBarColor {
+    background: #FFFF00;
+    border: 3px solid crimson;
+}
+
+#redCl {
+    background-color: crimson;
+}
+/*
 #toolbar ul {
     list-style-type: none;
-    width: 100%;
 }
 
 #toolbar ul li {
@@ -60,11 +71,14 @@ h1 span {
     clear: both;
     display: block;
 }
+
+*/
+
 /* Main Page Style */
 
 #dcWorlds {
-margin: auto;
-
+    margin: auto;
+    border: 3px solid crimson;
 }
 
 #dc {
@@ -139,6 +153,7 @@ footer {
     clear: both;
     position: absolute;
     margin-bottom: -2em;
+    border: 3px solid crimson;
 }
 
 footer p {
