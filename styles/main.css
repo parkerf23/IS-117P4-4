@@ -1,10 +1,12 @@
 
 html {
-    background-color: #0476f2;
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
 }
 
 header {
-    background-color: #0476f2;
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
     margin-bottom: -.5em;
 }
 
@@ -14,18 +16,21 @@ main {
 }
 
 h1 {
-    color: crimson;
+    color: #0476f2;
 }
 
 h1 span {
-    background-color: #FFFF00;
+    background-color: #ffc955;
     border-radius: 4px;
-    border: 3px solid crimson;
 }
 
 #navBarColor {
-    background: #FFFF00;
-    border: 3px solid crimson;
+    background: rgb(166,220,221);
+    background: linear-gradient(0deg, rgba(166,220,221,1) 0%, rgba(255,201,85,1) 100%);
+}
+
+#dropCol {
+    color: #0476f2;
 }
 
 #redCl {
@@ -79,30 +84,31 @@ h1 span {
 
 #dcWorlds {
     margin: auto;
-    border: 3px solid crimson;
+    border: 6px solid crimson;
 }
 
 #dc {
-    border: 3px solid crimson;
+    border: 6px solid crimson;
     margin: auto;
 
 }
 
 #mult {
-    border: 2px solid crimson;
+    border: 6px solid crimson;
     margin: auto;
 }
 
 
 #textP {
     text-indent: 47px;
-    color: crimson;
+    color: black;
     font-weight: bold;
 }
 
 #textH {
-    color: crimson;
+    color: black;
     text-decoration: underline;
+    font-weight: bold;
 }
 
 
@@ -136,11 +142,12 @@ input[type=submit]:hover {
 
 .container {
     border-radius: 5px;
-    background-color: #FFFF00;
+    background: rgb(166,220,221);
+    background: linear-gradient(0deg, rgba(166,220,221,1) 0%, rgba(255,201,85,1) 100%);
     padding: 20px;
 }
 #conC {
-    color: crimson;
+    color: #0476f2;
     font-weight: bold;
 }
 /* Review Page Style */
@@ -148,18 +155,27 @@ input[type=submit]:hover {
     margin: auto;
 }
 
+#revColor {
+    background: rgb(166,220,221);
+    background: linear-gradient(0deg, rgba(166,220,221,1) 0%, rgba(255,201,85,1) 100%);
+}
+
+#userColor {
+    color: black;
+    font-weight: bold;
+}
+
 footer {
     width: 100%;
-    background-color: #FFFF00;
+    background-color: #a6dcdd;
     clear: both;
     position: absolute;
     margin-bottom: -2em;
-    border: 3px solid crimson;
 }
 
 footer p {
     text-align: center;
-    color: crimson;
+    color: #0476f2;
     font-weight: bold;
 
 }
