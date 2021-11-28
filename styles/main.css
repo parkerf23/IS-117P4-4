@@ -111,6 +111,11 @@ h1 span {
     font-weight: bold;
 }
 
+/* Heros Page Content */
+#floatRight {
+    float: right;
+    position: relative;
+}
 
 /* Contact Page Style */
 input[type=text], select, textarea {
