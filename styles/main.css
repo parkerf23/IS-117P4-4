@@ -17,12 +17,10 @@ main {
 
 h1 {
     color: #0476f2;
-}
-
-h1 span {
     background-color: #ffc955;
     border-radius: 4px;
 }
+
 
 #navBarColor {
     background: rgb(166,220,221);
@@ -34,51 +32,8 @@ h1 span {
 }
 
 #redCl {
-    background-color: crimson;
+    background-color: #0476f2;
 }
-/*
-#toolbar ul {
-    list-style-type: none;
-}
-
-#toolbar ul li {
-    float: left;
-}
-
-#toolbar ul li a {
-    display: block;
-    width: 160px;
-    text-align: center;
-    background-color: #FFFF00;
-    padding: 1em 0;
-    text-decoration: none;
-    color: crimson;
-    font-weight: bold;
-
-}
-
-#toolbar ul ul {
-    display: none;
-    position: absolute;
-    top: 100%;
-
-}
-
-#toolbar ul ul li {
-    float: none;
-}
-
-#toolbar ul li:hover > ul {
-    display: block;
-}
-
-#toolbar > ul::after {
-    content: "";
-    clear: both;
-    display: block;
-}
-
-*/
 
 /* Main Page Style */
 
@@ -114,7 +69,7 @@ h1 span {
 /* Heros Page Content */
 #floatRight {
     float: right;
-    position: relative;
+    margin: auto;
 }
 
 /* Contact Page Style */
