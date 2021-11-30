@@ -60,6 +60,11 @@ h1 {
     font-weight: bold;
 }
 
+#textLi {
+    color: black;
+    font-weight: bold;
+}
+
 #textH {
     color: black;
     text-decoration: underline;
@@ -68,8 +73,9 @@ h1 {
 
 /* Heros Page Content */
 #floatRight {
-    float: right;
-    margin: auto;
+    display: flex;
+    justify-content: center;
+
 }
 
 /* Contact Page Style */
