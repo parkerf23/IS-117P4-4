@@ -29,8 +29,15 @@ h1 {
     background: linear-gradient(0deg, rgba(166,220,221,1) 0%, rgba(255,201,85,1) 100%);
 }
 
+#blowUp {
+    font-weight: bold;
+    font-size: 150%;
+}
+
 #dropCol {
     color: #0476f2;
+    font-weight: bold;
+
 }
 
 #redCl {
