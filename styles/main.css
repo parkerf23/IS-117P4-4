@@ -55,6 +55,9 @@ h1 {
     margin: auto;
 }
 
+#krpt {
+    border: 6px solid crimson;
+}
 
 #textP {
     text-indent: 47px;
@@ -138,7 +141,7 @@ footer {
     background-color: #a6dcdd;
     clear: both;
     position: absolute;
-    margin-bottom: -2em;
+    margin-top: 15em;
 }
 
 footer p {
