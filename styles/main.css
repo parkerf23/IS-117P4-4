@@ -53,12 +53,13 @@ h1 {
 
 #dc {
     border: 6px solid crimson;
-    margin: auto;
+    width: 100%;
 }
 
 #mult {
     border: 6px solid crimson;
     margin: auto;
+    background: rgb(166,220,221);
 }
 
 #krpt {
@@ -87,6 +88,17 @@ h1 {
     display: flex;
     justify-content: center;
     padding-bottom: 4px;
+}
+
+/* Dev Rec Style */
+#textC {
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#devCardCol {
+    background: rgb(166,220,221);
 }
 
 /* Contact Page Style */
@@ -124,8 +136,7 @@ input[type=submit]:hover {
 
 .container {
     border-radius: 5px;
-    background: rgb(166,220,221);
-    background: linear-gradient(0deg, rgba(166,220,221,1) 0%, rgba(255,201,85,1) 100%);
+    background: rgb(255,201,85);
     padding: 30px;
 }
 #conC {
