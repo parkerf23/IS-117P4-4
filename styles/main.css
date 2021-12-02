@@ -49,7 +49,7 @@ h1 {
 
 #dc {
     border: 6px solid crimson;
-    width: 100%;
+    margin: auto;
     background: rgb(166,220,221);
 }
 
