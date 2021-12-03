@@ -9,6 +9,7 @@ header {
     background: rgb(63,94,251);
     background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
     margin-bottom: -.5em;
+    font-family: 'Bangers', cursive;
 }
 
 main {
@@ -28,13 +29,12 @@ h1 {
 }
 
 #blowUp {
-    font-weight: bold;
-    font-size: 150%;
+    font-size: 200%;
+    font-family: 'Bangers', cursive;
 }
 
 #dropCol {
     color: #0476f2;
-    font-weight: bold;
 }
 
 #redCl {
@@ -50,34 +50,43 @@ h1 {
 #dc {
     border: 6px solid crimson;
     background: rgb(166,220,221);
+    margin: auto;
+    font-family: 'Bangers', cursive;
 }
 
 #mult {
     border: 6px solid crimson;
     margin: auto;
     background: rgb(166,220,221);
+    font-family: 'Bangers', cursive;
 }
 
 #krpt {
     border: 6px solid crimson;
     background: rgb(166,220,221);
+    font-family: 'Bangers', cursive;
+}
+#cardCent {
+    margin-left: 9em;
+    margin-bottom: 2em;
+
 }
 
 #textP {
     text-indent: 47px;
     color: black;
-    font-weight: bold;
+    font-family: 'Bangers', cursive;
 }
 
 #textLi {
     color: black;
-    font-weight: bold;
 }
 
 #textH {
     color: black;
     text-decoration: underline;
     font-weight: bold;
+    font-family: 'Bangers', cursive;
 }
 
 /* Heros Page Content */
@@ -92,10 +101,12 @@ h1 {
     text-align: center;
     font-weight: bold;
     text-decoration: underline;
+    font-family: 'Bangers', cursive;
 }
 
 #devCardCol {
     background: rgb(166,220,221);
+    font-family: 'Bangers', cursive;
 }
 
 /* Contact Page Style */
@@ -136,6 +147,7 @@ input[type=submit]:hover {
 #conC {
     color: #0476f2;
     font-weight: bold;
+    font-family: 'Bangers', cursive;
 }
 
 /* Review Page Style */
@@ -163,6 +175,7 @@ footer {
 footer p {
     text-align: center;
     color: #0476f2;
-    font-weight: bold;
+    font-family: 'Bangers', cursive;
+    font-size: 150%;
 
 }
