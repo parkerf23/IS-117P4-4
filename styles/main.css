@@ -164,13 +164,20 @@ input[type=submit]:hover {
     color: black;
     font-weight: bold;
 }
+blockquote {
+    padding: 0 2em;
+    font-family: 'Bangers', cursive;
+    text-align: center;
+
+}
+
 
 footer {
     width: 100%;
     background-color: #a6dcdd;
     clear: both;
     position: absolute;
-    margin-top: 8em;
+    margin-top: 12em;
 }
 
 footer p {
